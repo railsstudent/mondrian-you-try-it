@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 800px;
+  height: 800px;
+  background: url(../images/mondrian-5.png) no-repeat;
+  opacity: 0.5;
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+
+  grid-template-areas: "a  b  c  c  d  e  f  f"
+     "g  i  c  c  d  l  l  o"
+     "h  i  j  k  k  m  n  p"
+     "q  s  s  t  u  v  w  w"
+     "r  s  s  x  y  y  w  w"
+     "z  z  a1 x  y  y  k1 h1"
+     "b1 c1 d1 g1 g1 z1 k1 h1"
+     "e1 e1 f1 g1 g1 i1 i1 j1";
+
+  font-size: 2em;
+  color: #000;
+  text-align: center;
+  /*background: black;*/
+  border: 5px solid black;
+}
+
+.wrapper > div {
+  display: grid;
+  align-items: center;
+}
+
+
+.d, .i, .m {
+  color: #fff;
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.i {
+  grid-area: i
+}
+
+.j {
+  grid-area: j
+}
+
+.k {
+  grid-area: k
+}
+
+.l {
+  grid-area: l
+}
+
+.m {
+  grid-area: m
+}
+
+.n {
+  grid-area: n
+}
+
+.o {
+  grid-area: o
+}
+
+.p {
+  grid-area: p
+}
