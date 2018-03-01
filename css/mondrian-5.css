@@ -35,7 +35,7 @@
 }
 
 
-.d, .i, .m {
+.d, .i, .m, .z {
   color: #fff;
 }
 
@@ -72,33 +72,73 @@
 }
 
 .i {
-  grid-area: i
+  grid-area: i;
 }
 
 .j {
-  grid-area: j
+  grid-area: j;
 }
 
 .k {
-  grid-area: k
+  grid-area: k;
 }
 
 .l {
-  grid-area: l
+  grid-area: l;
 }
 
 .m {
-  grid-area: m
+  grid-area: m;
 }
 
 .n {
-  grid-area: n
+  grid-area: n;
 }
 
 .o {
-  grid-area: o
+  grid-area: o;
 }
 
 .p {
-  grid-area: p
+  grid-area: p;
+}
+
+.q {
+  grid-area: q;
+}
+
+.r {
+  grid-area: r;
+}
+
+.s {
+  grid-area: s;
+}
+
+.t {
+  grid-area: t;
+}
+
+.u {
+  grid-area: u;
+}
+
+.v {
+  grid-area: v;
+}
+
+.w {
+  grid-area: w;
+}
+
+.x {
+  grid-area: x;
+}
+
+.y {
+  grid-area: y;
+}
+
+.z {
+  grid-area: z;
 }
