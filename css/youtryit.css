@@ -2,7 +2,7 @@
 .wrapper {
   width: 633px;
   height: 458px;
-  /*background: url(mondrian2.png) no-repeat;*/
+  /*background: url(../mondrian2.png) no-repeat;*/
 
   display: grid;
   grid-gap: 10px;
