@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: #000;
+  --background-color: #fff;
+  --border-color: #000;
+}
+
+.wrapper {
+  width: 800px;
+  height: 800px;
+  /* background: url(../images/mondrian-5.png) no-repeat;
+  opacity: 0.5; */
+
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+
+  grid-template-areas: "a  b  c  c  d  e  f  f"
+     "g  i  c  c  d  l  l  o"
+     "h  i  j  k  k  m  n  p"
+     "q  s  s  t  u  v  w  w"
+     "r  s  s  x  y  y  w  w"
+     "z  z  a1 x  y  y  k1 h1"
+     "b1 c1 d1 g1 g1 z1 k1 h1"
+     "e1 e1 f1 g1 g1 i1 i1 j1";
+
+  font-size: 2em;
+  text-align: center;
+  background: var(--border-color);
+  border: 5px solid var(--border-color);
+}
+
+.wrapper > div {
+  display: grid;
+  align-items: center;
+  color: var(--font-color);
+  background: var(--background-color);
+}
+
+.d, .i, .m, .z, .j1 {
+  --font-color: #fff;
+  --background-color: #000;
+}
+
+ .a, .e, .s, .p, .k1, .f1 {
+   --font-color: #f00;
+   --background-color: yellow;
+ }
+
+ .a, .e, .s, .p, .k1, .f1 {
+   --font-color: #f00;
+ }
+
+ .c, .h, .l, .x, .u, .w, .e1, .z1 {
+   --background-color: #f00;
+ }
+
+ .f, .q, .k, .d1, .n {
+   --background-color: gray;
+ }
+
+ .c, .h, .l, .x, .u, .w, .e1, .z1, .f, .q, .k, .d1, .n {
+   --font-color: yellow;
+ }
+
+ .g, .j, .r, .y, .a1, .b1, .i1 {
+   --background-color: blue;
+ }
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+.i {
+  grid-area: i;
+}
+
+.j {
+  grid-area: j;
+}
+
+.k {
+  grid-area: k;
+}
+
+.l {
+  grid-area: l;
+}
+
+.m {
+  grid-area: m;
+}
+
+.n {
+  grid-area: n;
+}
+
+.o {
+  grid-area: o;
+}
+
+.p {
+  grid-area: p;
+}
+
+.q {
+  grid-area: q;
+}
+
+.r {
+  grid-area: r;
+}
+
+.s {
+  grid-area: s;
+}
+
+.t {
+  grid-area: t;
+}
+
+.u {
+  grid-area: u;
+}
+
+.v {
+  grid-area: v;
+}
+
+.w {
+  grid-area: w;
+}
+
+.x {
+  grid-area: x;
+}
+
+.y {
+  grid-area: y;
+}
+
+.z {
+  grid-area: z;
+}
+
+.a1 {
+  grid-area: a1;
+}
+
+.b1 {
+  grid-area: b1;
+}
+
+.c1 {
+  grid-area: c1;
+}
+
+.d1 {
+  grid-area: d1;
+}
+
+.e1 {
+  grid-area: e1;
+}
+
+.f1 {
+  grid-area: f1;
+}
+
+.g1 {
+  grid-area: g1;
+}
+
+.h1 {
+  grid-area: h1;
+}
+.i1 {
+  grid-area: i1;
+}
+.j1 {
+  grid-area: j1;
+}
+.k1 {
+  grid-area: k1;
+}
+.z1 {
+  grid-area: z1;
+}
